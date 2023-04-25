@@ -1,0 +1,56 @@
+{
+
+    "common": {
+        "employee": "موظف",
+        "company_name": "اسم الشركة",
+        "ID": "الرمز",
+        "email": "البريد الالكتروني",
+        "mobile_number": "رقم الجوال",
+        "login": "تسجيل الدخول",
+        "poweredBy": "مدعوم من قبل",
+        "scan": "SCAN QR",
+        "ufDevice": "UPLOAD FROM DEVICE",
+        "verify": "VERIFY",
+        "no_data": "لاتوجد بيانات",
+        "saved": "حفظ بنجاح.",
+        "recorddelete": "تم الحذف",
+        "delete": "تم الحذف",
+        "Already_have_an_account": "؟ لديك حساب ؟ قم بالدخول",
+        "Dont_have_Sign_Up": "ليس لديك حساب ؟",
+        "sortby":"ترتيب حسب"
+    },
+    "login": {
+        "header": "تسجيل الدخول لحسابك",
+        "password": " كلمه السر",
+        "forgot_password": "هل نسيت كلمة المرور؟",
+        "dont_have_an_account": "ليس لديك حساب ؟",
+        "register": "تسجيل"
+    },
+    "register": {
+        "Scanerupload": "Scan or upload the QR Code provided by HR Team"
+    },
+    "new_user": {
+        "new_user_registration": "تسجيل مستخدم جديد",
+        "register": "تسجيل",
+        "already_have_an_account": "لديك حساب ؟ قم بالدخول"
+    },
+    "forgot_password": {
+        "header": "هل نسيت كلمة المرور",
+        "Mobile_Number": "رقم الجوال",
+        "request": "طلب"
+    },
+    "verification": {
+        "header": "تَحَقّق",
+        "enter_verification_code": "Enter Verificaiton Code",
+        "didn't_recieve_code": "If you didn't recieve the code !",
+        "resend_OTP": "اعادة ارسال رمز التأكيد",
+        "verify": "تأكيد"
+    },
+    "reset_password": {
+        "header": "Reset Password",
+        "new_password": "كلمة السر الجديدة",
+        "confirm_password": "تأكيد كلمة المرور",
+        "submit": "تنفيذ"
+    }
+    
+}

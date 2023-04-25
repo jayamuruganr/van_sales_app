@@ -19,6 +19,7 @@ import {
   TouchableOpacity,
 } from "react-native";
 import { AppTextFormInput, AppCalendarView, AppDropDown, AppRadioButton, AppCheckBox, AppMultiCalendarView } from "../../forms";
+import AppButton from "../../forms/AppButton";
 
 
 const ValidationSchema = Yup.object().shape({
@@ -59,6 +60,7 @@ export default function Login() {
             <AppCheckBox />
               <AppMultiCalendarView name="date1" placeholder="date" />
             <Button onPress={handleSubmit} title="Submit"></Button>
+            <AppButton title="Submit"/>
           </View>
         )}
 

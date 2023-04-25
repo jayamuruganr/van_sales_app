@@ -1,0 +1,55 @@
+{
+
+    "common": {
+        "employee": "Employee",
+        "company_name": "Company Name",
+        "ID": "Enter ID",
+        "email": "Email",
+        "mobile_number": "Mobile Number",
+        "login": "Login",
+        "poweredBy": "Powered By",
+        "scan": "SCAN QR",
+        "ufDevice": "UPLOAD FROM DEVICE",
+        "verify": "VERIFY",
+        "no_data": "No data found",
+        "saved": "Saved successfully.",
+        "recorddelete": "Record deleted Successfully",
+        "delete": "Delete",
+        "Already_have_an_account": "Already have an account?",
+        "Dont_have_Sign_Up": "Don't have an account?",
+        "sortby":"Sort By"
+    },
+    "login": {
+        "header": "Login to your Account",
+        "password": "Password",
+        "forgot_password": "Forgot password?",
+        "dont_have_an_account": "Don't have an account?",
+        "register": "Register"
+    },
+    "register": {
+        "Scanerupload": "Scan or upload the QR Code provided by HR Team"
+    },
+    "new_user": {
+        "new_user_registration": "New User Registration",
+        "register": "REGISTER",
+        "already_have_an_account": "Already have an account?"
+    },
+    "forgot_password": {
+        "header": "Forgot Password",
+        "Mobile_Number": "Mobile Number",
+        "request": "REQUEST"
+    },
+    "verification": {
+        "header": "Verificaiton",
+        "enter_verification_code": "Enter Verificaiton Code",
+        "didn't_recieve_code": "If you didn't recieve the code !",
+        "resend_OTP": "Resend OTP",
+        "verify": "VERIFY"
+    },
+    "reset_password": {
+        "header": "Reset Password",
+        "new_password": "New Password",
+        "confirm_password": "Confirm Password",
+        "submit": "Submit"
+    }
+}

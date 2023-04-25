@@ -4,39 +4,9 @@ const { width, height } = Dimensions.get('window');
 export const COLORS = {
   primary: '#5baeda',
   secondary: '#005e94',
-  // use the below colors only
-  black: '#000000',
-  button: '#005E94',
-  cornerBox: '#C8ECFE',
-  error: '#FF0000',
-  inputBorder: '#91c4fb',
-  mainLogo: '#216588',
-  placeholder: '#5AAED9',
-  switch: '#5AAED9',
-  white: '#ffffff',
-  gray: '#707070',
-  lightGray: '#B3B3B3',
-  thinGray: '#8D8D8D',
-  darkBlue: '#222B45',
-  lightBlue: '#D6EAFF',
-  thinBlue: '#95cce6',
-  profileBlue: '#C8ECFE',
-  textColor: '#09677B',
-  cardBg: '#D9D9D9',
-  cardApproveBg: '#B8D3D9',
-  profileIcon: '#99D2EF',
-  divider: '#999595',
-  grey: '#E9E9E9',
-  yellow: "#CAA748",
-  green: "69AD87",
-  red: "#C03929",
-  pending: '#CAA748',
-  approved: '#69AD87',
-  delete: '#C03929',
-  accordianbg: '#EAEAEA',
-  benefitsBg: '#E6F2FF',
-  benefitsBorder: '#CDCDCD',
-  grey1:'#999999'
+  PrimaryButton:'#456DFE',
+  White:'#fff',
+  black:'#000'
 };
 
 export const SIZES = {
