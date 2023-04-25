@@ -18,6 +18,7 @@ interface Props {
 function AppMultiCalendarView({ name, placeholder, width }: Props) {
     const initDate = '2022-12-01';
     const [selected, setSelected] = useState('');
+    const [selected2, setSelected2] = useState('');
     const [flag, setflage] = useState(false);
     const [modalVisible, setModalVisible] = useState(false);
     const {
@@ -51,7 +52,7 @@ function AppMultiCalendarView({ name, placeholder, width }: Props) {
             {/* </TouchableOpacity> */}
             <TextInput
                 mode="outlined"
-                showSoftInputOnFocus={false} onPressIn={() => setModalVisible(true)} caretHidden={true} value={selected}
+                showSoftInputOnFocus={false} onPressIn={() => setModalVisible(true)} caretHidden={true} value={`${selected} - ${selected2}`}
                 label={placeholder}
                 placeholder={placeholder}
             />
@@ -62,15 +63,22 @@ function AppMultiCalendarView({ name, placeholder, width }: Props) {
                 <View style={styles.overlay}>
                     <Calendar
                         initialDate={initDate}
+                        
+                        markingType='period'
                         markedDates={{
-                            [selected]: {selected: true,selectedColor:'red',
-                            disableTouchEvent: true,
-                            selectedTextColor: 'orange'
-                          },
+                            [selected]: {startingDay: true,color:'lightblue'},
+                          [selected2]: {endingDay: true,color:'lightblue',},
                         }}
-                        onDayLongPress={(day) => {
-                            setSelected(day.dateString);
-                            setModalVisible(false)
+                        onDayPress={(day) => {
+                            console.log(day,'ppp');
+                            if(selected == '' || (selected != '' && selected2 != '')){
+                                setSelected(day.dateString);
+                                setSelected2('');
+                            }else if(selected != ''){
+                                setSelected2(day.dateString);
+                                setModalVisible(false)
+                            }
+                            
                         }} />
                 </View>
             </Modal>

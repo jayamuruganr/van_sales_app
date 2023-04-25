@@ -53,10 +53,11 @@ export default function Login() {
             <AppTextFormInput name="userName" placeholder="userName" />
             <AppTextFormInput name="password" placeholder="password" />
             <AppCalendarView name="date" placeholder="date" />
-            {/* <AppMultiCalendarView name="date" placeholder="date" /> */}
+          
             <AppDropDown name="gender" placeholder="gender" />
             <AppRadioButton name='picked' />
             <AppCheckBox />
+              <AppMultiCalendarView name="date1" placeholder="date" />
             <Button onPress={handleSubmit} title="Submit"></Button>
           </View>
         )}
