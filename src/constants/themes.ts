@@ -2,6 +2,8 @@ import { Dimensions, I18nManager } from 'react-native';
 const { width, height } = Dimensions.get('window');
 // console.log('I18nManager',I18nManager)
 export const COLORS = {
+
+  //Theme colors
   primary: '#5baeda',
   secondary: '#005e94',
   PrimaryButton:'#456DFE',
@@ -10,7 +12,8 @@ export const COLORS = {
   TitleTextColor:'#343031',
   paracolors:"#B3B3B3",
   placeholder: '#5AAED9',
-  commonText:"#8A8787"
+  commonText:"#8A8787",
+
 };
 
 export const SIZES = {
