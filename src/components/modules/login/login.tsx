@@ -23,6 +23,7 @@ import { AppTextFormInput, AppCalendarView, AppDropDown, AppRadioButton, AppChec
 import AppButton from "../../forms/AppButton";
 import AppHeaderTitle from "../../sharedComponents/AppHeaderTitle";
 import { useTranslation } from 'react-i18next';
+import AppLanguageSwitch from "../../sharedComponents/AppLanguageSwitch";
 
 const ValidationSchema = Yup.object().shape({
   userName: Yup.string().required().label('userName'),
@@ -65,8 +66,12 @@ export default function Login() {
             <AppRadioButton name='picked' />
             <AppCheckBox />
               <AppMultiCalendarView name="date1" placeholder="date" />
+              <AppLanguageSwitch></AppLanguageSwitch>
+
             <Button onPress={handleSubmit} title="Submit"></Button>
             <AppButton title="Submit"/>
+
+          
           </View>
         )}
 

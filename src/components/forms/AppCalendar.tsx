@@ -117,12 +117,12 @@ const styles = StyleSheet.create({
     }, inuptbox: {
         borderWidth: 1,
         color: COLORS.black,
-        borderLeftColor: COLORS.white,
-        borderTopColor: COLORS.white,
+        borderLeftColor: COLORS.White,
+        borderTopColor: COLORS.White,
         paddingHorizontal: 8,
-        borderRightColor: COLORS.white,
-        borderBottomColor: COLORS.switch,
-        backgroundColor: COLORS.white,
+        borderRightColor: COLORS.White,
+        borderBottomColor: COLORS.White,
+        backgroundColor: COLORS.White,
         fontSize: SIZES.sz_16_font,
         marginBottom: 15,
 

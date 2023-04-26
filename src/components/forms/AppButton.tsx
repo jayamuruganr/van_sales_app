@@ -7,6 +7,7 @@ interface props{
     title?:string,
     style?:object
 }
+
 const AppButton = ({title,style}:props) => (
   <Button  style={styles.CommonBtn}
    labelStyle={{fontSize:SIZES.sz_16_font,color:COLORS.White}} 

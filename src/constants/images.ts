@@ -1,5 +1,8 @@
-const logo = require('../assets/images/logo.png');
+
+const arabic = require('../assets/images/arabic.png');
+const english = require('../assets/images/english.png');
 
 export default {
-    logo,
+    arabic,
+    english
 }
