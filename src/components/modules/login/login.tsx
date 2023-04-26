@@ -56,6 +56,8 @@ export default function Login() {
         validationSchema={ValidationSchema}
       >
         {({ handleSubmit }) => (
+
+          
           <View>
             <AppHeaderTitle headerTitle= {t('login.register')} />
             <AppTextFormInput name="userName" placeholder="userName" /> 
