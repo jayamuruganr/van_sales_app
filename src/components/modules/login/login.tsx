@@ -17,10 +17,12 @@ import {
   TextInput,
   Button,
   TouchableOpacity,
+  I18nManager
 } from "react-native";
 import { AppTextFormInput, AppCalendarView, AppDropDown, AppRadioButton, AppCheckBox, AppMultiCalendarView } from "../../forms";
 import AppButton from "../../forms/AppButton";
-
+import AppHeaderTitle from "../../sharedComponents/AppHeaderTitle";
+import { useTranslation } from 'react-i18next';
 
 const ValidationSchema = Yup.object().shape({
   userName: Yup.string().required().label('userName'),
@@ -32,6 +34,9 @@ const ValidationSchema = Yup.object().shape({
 });
 
 export default function Login() {
+
+  const { t, i18n } = useTranslation();
+
   return (
 
     <View>
@@ -51,7 +56,8 @@ export default function Login() {
       >
         {({ handleSubmit }) => (
           <View>
-            <AppTextFormInput name="userName" placeholder="userName" />
+            <AppHeaderTitle headerTitle= {t('login.register')} />
+            <AppTextFormInput name="userName" placeholder="userName" /> 
             <AppTextFormInput name="password" placeholder="password" />
             <AppCalendarView name="date" placeholder="date" />
           

@@ -12,7 +12,6 @@ const AppButton = ({title,style}:props) => (
    labelStyle={{fontSize:SIZES.sz_16_font,color:COLORS.White}} 
    mode="contained-tonal" 
    onPress={() => console.log('Pressed')}
-
    >
 {title}
   </Button>
