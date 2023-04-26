@@ -11,7 +11,7 @@ interface props{
 
 const AppHeaderTitle = ({headerTitle,style}:props) => (
     
-    <Text style={{color:'black' , fontSize:20}}> {headerTitle} {t('login.register')}</Text>
+    <Text style={{color:'black' , fontSize:20}}> {headerTitle} </Text>
 );
 
 export default AppHeaderTitle;
