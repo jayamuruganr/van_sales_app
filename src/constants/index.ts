@@ -1,3 +1,3 @@
 import { COLORS,SIZES } from "./themes";
-
-export { COLORS,SIZES }
+import { commonStyles } from "./commonStyles";
+export { COLORS,SIZES,commonStyles }
